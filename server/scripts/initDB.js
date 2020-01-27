@@ -6,15 +6,19 @@ let db = null;
 const clubData = [
   {
     name: 'club-julix',
+    image: '/images/julix.jpeg',
   },
   {
     name: 'club-rebibix',
+    image: '/images/rebibix.jpeg',
   },
   {
     name: 'club-melanix',
+    image: '/images/melanix.jpeg',
   },
   {
     name: 'club-jonix',
+    image: '/images/jonix.jpeg',
   },
 ];
 

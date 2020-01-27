@@ -20,5 +20,8 @@ services:
     build:
       context: .
       dockerfile: ./nginx.dockerfile
+    volumes:
+      - '../assets/images:/images'
+      - '../../client/build:/usr/share/nginx/html/'
     ports:
       - 8080:80
